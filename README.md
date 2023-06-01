@@ -27,3 +27,4 @@ Under the "pd.get_dummies" and y = Convert_cat_dummies.IS_SUCCESSFUL.values , X 
 In my line "application_df.drop(['EIN', 'NAME'], axis=1, inplace=True)", the variables should be removed "EIN" and "NAME" from the input data that column.  Because they are not targets nor features for model to use.
 
 **Neurons, layers, and activation functions select for your neural network model**
+The number of input features is determined dynamically based on the shape of the training data. 
