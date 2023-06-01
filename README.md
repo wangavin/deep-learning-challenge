@@ -31,5 +31,6 @@ In my line "application_df.drop(['EIN', 'NAME'], axis=1, inplace=True)", the var
 The number of input features is determined dynamically based on the training data and Scale the data. The "X_train_scaled = X_scaler.transform(X_train)" and "X_test_scaled = X_scaler.transform(X_test)" is a good start to use define model. In this analysis is import tensorflow for First and second hidden layer. Also use "Output layer" and activation="sigmoid" = sigmoid(x) = 1 / (1 + exp(-x)) for binary classification. Experimentation and tuning of these parameters may be necessary to achieve the best model performance.
 
 **Were you able to achieve the target model performance**
+
 it is difficult to determine whether the target model performance has been achieved or not. Because the model performance calculates answer is loss and accuracy on the test data using the evaluate method.
 
