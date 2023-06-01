@@ -14,11 +14,11 @@ If Alphabet Soup has a more lenient approach and is willing to accept a certain 
 a 73.12% accuracy could be considered reasonable.
 
 ### Data Preprocessing
-**Variable(s) are the target(s) in model?**
+**Variable(s) are the target(s) in model**
 
 Based on the provided script, The model aims to predict this target represents a success of the ventures for which Alphabet Soup is considering funding. The model can be assumed  where 1 indicates a successful venture and 0 indicates an unsuccessful venture.
 
-**Variable(s) are the features in model?**
+**Variable(s) are the features in model**
 
 Under the "pd.get_dummies" and y = Convert_cat_dummies.IS_SUCCESSFUL.values , X = Convert_cat_dummies.drop(columns="IS_SUCCESSFUL").values that 2 section,  features include all the encoded categorical variables, as well as any other numerical or categorical variables that were present in the original dataset and were preprocessed before creating dataFrame.
 
